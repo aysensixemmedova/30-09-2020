@@ -4,6 +4,10 @@
     margin: 0;
 
 }
+.container{
+    width: 80%;
+    margin: auto;
+}
 .find{
     background:url(photo/bg-masthead.jpg);
     height: 100vh;
@@ -63,7 +67,7 @@
     background: #1E809F;
     text-align: center;
     color: white;
-    height: 40vh;
+    height: 60vh;
 }
 .service h2{
     font-size: 3em;
@@ -71,17 +75,119 @@
 .service h3{
     color: #EBB807;
 }
-.servic-icon{
+.service .servic-icon{
     float: left;
     width: 25%;
+    padding-top: 50px;
     
 
     
     
 }
-.servic-icon i{
+ .service .servic-icon i{
     background-color: white;
     color: #1E809F; 
-    border-radius: 40px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    padding: 30px;
    
+}
+/* service end  */
+
+.next{
+    padding-top: 200px;
+    text-align: center;
+    height: 90vh;
+    background: url(photo/bg-callout.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.next h2{
+    font-size: 3.5em;
+    font-weight: 700;
+}
+/* next end  */
+.project{
+    text-align: center;
+    padding: 4em 0.;
+}
+.project h3{
+     color: goldenrod;
+}
+.project h1{
+    font-size: 2.5em;
+    
+}
+.project .project-img{
+    width: 50%;
+    transition: .3s cubic-bezier(0.61, 0.29, 0.61, 0.33);
+    float: left;
+    position: relative;
+}
+.project .project-img img{
+    width: 100%;
+    vertical-align: middle;
+    clip-path: inset(-1px);
+    transition: clip-path .5s ease-in-out;
+}
+.project .project-img .project-itm{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    padding: 30px;
+    color: #fff;
+}
+.project .project-img:hover img{
+    clip-path: inset(25px);
+   
+}
+.clear{
+    clear: both;
+}
+/* project end  */
+
+.below{
+    background: #1d809f;
+    height: 50vh;
+    text-align: center;
+}
+.below h2{
+    font-size: 2.5em;
+    font-weight: 300;
+    color: #fff;
+padding-top: 70px;
+}
+.mybtn3{
+    margin-top: 40px;
+    text-decoration: none;
+    padding: 30px 50px;
+    background: #fff;
+    color: black;
+    border-radius: 5px;
+
+}
+.mybtn4{
+    background: black;
+    color: #fff;
+    padding: 30px 50px;
+    text-decoration: none;
+    border-radius:5px ;
+}
+
+/* below end  */
+.icon{
+    height: 40vh;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 80px;
+}
+.icon i{
+    padding: 20px;
+    background: #1d809f;
+    color: #fff;
+    border-radius: 50%;
+    margin: 0 15px;
+}
+.icon i:first-child{
+    padding: 20px 25px;
 }
